@@ -1,0 +1,59 @@
+Last login: Mon May  9 14:03:34 on ttys000
+valeriiasobakar@MacBook-Air-Valeriia ~ % curl -v -X POST -d "os_username=ria&os_password=10171999sl&os_destination=&user_role=&atl_token=&login=Log+In" -H "Content-Type: application/x-www-form-urlencoded" https://jira.ithillel.com/login.jsp
+Note: Unnecessary use of -X or --request, POST is already inferred.
+*   Trying 51.68.251.173:443...
+* Connected to jira.ithillel.com (51.68.251.173) port 443 (#0)
+* ALPN, offering h2
+* ALPN, offering http/1.1
+* successfully set certificate verify locations:
+*  CAfile: /etc/ssl/cert.pem
+*  CApath: none
+* (304) (OUT), TLS handshake, Client hello (1):
+* (304) (IN), TLS handshake, Server hello (2):
+* TLSv1.2 (IN), TLS handshake, Certificate (11):
+* TLSv1.2 (IN), TLS handshake, Server key exchange (12):
+* TLSv1.2 (IN), TLS handshake, Server finished (14):
+* TLSv1.2 (OUT), TLS handshake, Client key exchange (16):
+* TLSv1.2 (OUT), TLS change cipher, Change cipher spec (1):
+* TLSv1.2 (OUT), TLS handshake, Finished (20):
+* TLSv1.2 (IN), TLS change cipher, Change cipher spec (1):
+* TLSv1.2 (IN), TLS handshake, Finished (20):
+* SSL connection using TLSv1.2 / ECDHE-RSA-AES256-GCM-SHA384
+* ALPN, server accepted to use http/1.1
+* Server certificate:
+*  subject: CN=confluence.ithillel.com
+*  start date: Apr  8 04:12:14 2022 GMT
+*  expire date: Jul  7 04:12:13 2022 GMT
+*  subjectAltName: host "jira.ithillel.com" matched cert's "jira.ithillel.com"
+*  issuer: C=US; O=Let's Encrypt; CN=R3
+*  SSL certificate verify ok.
+> POST /login.jsp HTTP/1.1
+> Host: jira.ithillel.com
+> User-Agent: curl/7.79.1
+> Accept: */*
+> Content-Type: application/x-www-form-urlencoded
+> Content-Length: 89
+> 
+* Mark bundle as not supporting multiuse
+< HTTP/1.1 302 
+< Server: nginx/1.14.0 (Ubuntu)
+< Date: Mon, 09 May 2022 06:39:10 GMT
+< Content-Type: text/html;charset=UTF-8
+< Content-Length: 0
+< Connection: keep-alive
+< X-AREQUESTID: 579x1106704x1
+< Referrer-Policy: strict-origin-when-cross-origin
+< X-XSS-Protection: 1; mode=block
+< X-Content-Type-Options: nosniff
+< X-Frame-Options: SAMEORIGIN
+< Content-Security-Policy: frame-ancestors 'self'
+< Strict-Transport-Security: max-age=31536000
+< Cache-Control: no-cache, no-store, must-revalidate
+< Pragma: no-cache
+< Expires: Thu, 01 Jan 1970 00:00:00 GMT
+< Set-Cookie: JSESSIONID=F5B62013713E941BB17D3FE2D764DFA1; Path=/; Secure; HttpOnly
+< X-Seraph-LoginReason: OK
+< Location: https://jira.ithillel.com/
+< 
+* Connection #0 to host jira.ithillel.com left intact
+valeriiasobakar@MacBook-Air-Valeriia ~ % 

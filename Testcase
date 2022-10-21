@@ -1,0 +1,143 @@
+_________________________________________________________
+Check items in the wish list.
+
+Pre-Conditions
+
+1. The site "rozetka.com.ua" is opened.
+2. The user has logged into personal account of an online store "Rozetka" 
+Login: test@gmail.com
+Password: pass
+
+
+
+Test Steps
+1. Select any item category from the list on the left.
+Expected result:
+The product category is opened and shows subcategories.
+
+2. Select any subcategory.
+Expected result: The product page is opened.
+
+3.Add any item in stock to the wish list by clicking on the button "heart".
+Expected result: The button "heart" changed color to orange, the push-up message appears with the message "Product added to wishlist".The item is added to wish list. 
+
+4. Scroll down and select from the filter "Order status" - "Out of stock"
+Expected result: The items are sorted. On the page items with the status "Out of stock".
+
+5. Add to wishlist any items out of stock by clicking on the button "heart".
+Expected result: The heart changed color to orange and the item will be added to the wish list when it is in stock.
+
+
+As a user Rozetka
+I don’t want
+To see items on my wishlist if they are out of stock
+
+but if items appeared again they should be visible on my wishlist
+
+Given User is on Login Page 
+When User enters following credentials and submit
+|Login |test@gmail.com|
+|Password |pass|
+Then The main page of the online store is open and the user is logged into his personal account.
+When The user selects any product category from the list on the left.
+Then The product category is opened and shows subcategories.
+When The user selects any subcategory.
+Then The product page has opened.
+When The user adds any item in stock to the wish list by clicking on the button "heart".
+Then The button "heart" changed color to orange, the push-up message appears with the message "Product added to wishlist".The item is added to wish list. 
+When The user scrolls down and select from the filter "Order status" - "Out of stock"
+Then The items are sorted. On the page items with the status "Out of stock".
+When The user adds to wishlist any items out of stock by clicking on the button "heart".
+Then The button "heart" changed color to orange, the item will be added to the wish list when it is in stock.
+
+
+
+
+
+
+
+2. Add to wishlist items in stock and out of stock
+Expected Result
+Only items in stock added successfully to wishlist
+
+3. Select another item out of stock
+Expected Result
+The user goes to another page with detailed information about the item
+
+
+4. Click on the "Повідоміти, коли з'явиться" button.
+Expected Result
+The item will be added to the wish list when it is in stock.
+
+
+
+Test Data 
+
+Email address: testcase@gmail.com
+Password: 12345
+
+_____________________________________________________
+
+Scenario - Out-of-stock items are not shown on the wishlist
+
+Given User is logged into the online store "Rozetka"
+When The user types in the search field the item "Trust GXT 711 Dominus"
+Then The search result shows items "Trust GXT 711 Dominus"
+When User adds items in stock and out of stock into the wishlist
+Then Items in stock are added to the wishlist
+When The user selects another item out of stock
+Then The user goes to another page with detailed information about the item
+When The user clicks on the button "Повідоміти, коли з'явиться"
+Then The item will be added to the wish list after appearance in stock
+
+
+
+
+
+
+
+____________________________________________________________________
+Check the items have been added to the wish list after appearance in stock
+
+Pre-Conditions
+
+1. User has logged into personal account of an online store "Rozetka"
+
+
+Test Steps
+1. Type in the search field the product "Trust GXT 711 Dominus"
+Expected Result
+The search result shows items "Trust GXT 711 Dominus".
+
+2. Select the item out of stock
+Expected Result
+The user goes to another page with detailed information about the item
+
+
+3. Click on the "Повідомимо про наявність" button.
+Expected Result
+The item will be added to the wish list when it is in stock.
+
+
+Test Data 
+
+Email address: testcase@gmail.com
+Password: 12345
+
+________________________________________________________________
+
+Scenario 2 - The items have been added to the wish list after appearance in stock
+
+
+Given The user is logged into the online store "Rozetka"
+When The user types in the search field the product "Trust GXT 711 Dominus"
+Then The search result shows items "Trust GXT 711 Dominus".
+When The user selects an item out of stock
+Then The user goes to another page with detailed information about the item
+When The user clicks on the button "Повідомимо про наявність"
+Then The item will be added to the wish list after appearance in stock
+
+
+
+
+

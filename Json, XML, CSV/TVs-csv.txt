@@ -1,0 +1,6 @@
+brand, color, price
+Samsung, black, 9199
+Bravis, white, 4799
+Kivi, grey, 4999
+LG, dark grey, 10699
+Sony, silver, 14699

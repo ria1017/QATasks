@@ -1,0 +1,39 @@
+
+{
+"TVs":[
+{
+"brand": "Samsung",
+"color": "black",
+"price": 9199
+},
+
+{
+"brand": "Bravis",
+"color": "white",
+"price": 4799
+
+},
+
+{
+"brand": "Kivi",
+"color": "grey",
+"price": 4999
+
+},
+
+{
+"brand": "LG",
+"color": "dark grey",
+"price": 10699
+
+
+},
+
+{
+"brand": "Sony",
+"color": "silver",
+"price": 14699
+
+}
+
+] }

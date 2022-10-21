@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="UTF-8"?>
+   <TVs>
+      <TV>
+         <brand>Samsung</brand>
+         <color>black</color>
+         <price>9199</price>
+      </TV>
+      <TV>
+         <brand>Bravis</brand>
+         <color>white</color>
+         <price>4799</price>
+      </TV>
+      <TV>
+         <brand>Kivi</brand>
+         <color>grey</color>
+         <price>4999</price>
+      </TV>
+      <TV>
+         <brand>LG</brand>
+         <color>dark grey</color>
+         <price>10699</price>
+      </TV>
+      <TV>
+         <brand>Sony</brand>
+         <color>silver</color>
+         <price>14699</price>
+      </TV>
+   </TVs>

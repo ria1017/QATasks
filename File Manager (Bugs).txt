@@ -1,0 +1,6 @@
+Reporter:ÊValeriia SobakarProduct:ÊFile Manager. (Screenshot)1. Wrong image of the "Delete" icon in the ribbon.
+2. Red X delete button is missing.3. Wrong image of the "New Folder" icon in the ribbon.4. The "Rename" icon is duplicated in the ribbon.
+5. The "Select all" button does not work.6. Two calls to action near the input field: a "magnifier icon" and a "Go" button.
+7. The inscription "Go" is not descriptive system action.
+8. There is no sample search query in the input field.
+9. There are no "Forward and Back buttons" in the ribbon.10. There is no "Preview" button in the ribbon.11. There is no "Sort by" function in the ribbon.12. There is no "Address bar".13. There is no "Navigation Pane" on the left.14. There is no data column about the file "Type".15. There is no data column about the file "Size".16. There is no data column about the file "Owner".17. There is no data column about the file "Modified".18. There is no data column about the file "Created".19. Lots of free space on the right side of the ribbon.

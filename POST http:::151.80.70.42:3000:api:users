@@ -1,0 +1,5 @@
+POST http://151.80.70.42:3000/api/users
+DELETE http://151.80.70.42:3000/api/users/20
+PUT http://151.80.70.42:3000/api/users/19
+GET http://151.80.70.42:3000/api/users/refreshAdmins
+PATCH 

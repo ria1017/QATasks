@@ -1,0 +1,24 @@
+Check that Header is visible and all elements exist and are mached with desigs
+Check that navigation bar contains: Garage, Fuel expenses, Instructions tabs
+Check that Garage tab is redirected to garage tab
+Check Fuel expenses tab is redirected to fuel expenses tab
+Check Instructions tab is redirected to the instruction tab
+Check that after clicking on the "My profile" button, a drop-down list appears and shows a list: Garage, Fuel expenses, Instructions, Profile, Settings, Log out
+Check that after clicking any button it will be redirected to a proper tab on the page or log out from application
+
+
+
+
+
+Check that profile includes: Garage, Fuel expenses, Instructions, Profile, Settings tabs
+
+
+
+
+Profile after registration 
+
+
+Edit profile with empty field "Name". (all other fields should be valid)
+
+Edit profile with invalid name (all other fields should be valid) and check that the border color is red
+Edit profile with invalid last name (all other fields should be valid) and check that the border color is red
